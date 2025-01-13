@@ -1,0 +1,10 @@
+INICIO X, Y, B
+MONITOR Z
+EXECUTE
+X = 5
+Y = 2
+B = 0
+EVAL(X, Y,
+IF B THEN Z = Z + 2
+ELSE Z = Z + 1 FIM)
+TERMINO
